@@ -1,0 +1,177 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #ece0e0;
+}
+
+header .top .toplist {
+  position: absolute;
+}
+
+header .top .toplist ul {
+  font-weight: 800;
+  color: #e0c110;
+  margin-top: 2rem;
+}
+
+header .top .toplist ul li {
+  font-size: 2rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+header .top .toplist ul li span {
+  color: #ff0040;
+}
+
+header .navbar {
+  position: relative;
+}
+
+header .navbar h4 {
+  font-weight: 900;
+}
+
+header .navbar .navbar-brand img {
+  height: 14rem;
+  width: 14rem;
+}
+
+header .navbar .nav-link img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.main {
+  border: 1px solid #494646;
+  font-size: 2rem;
+}
+
+.main .list3 {
+  font-size: 1.3rem;
+}
+
+.main .list3 img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.main .list1 input {
+  height: 2rem;
+  width: 6rem;
+}
+
+.main .list img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.main .list span {
+  display: inline;
+  color: orange;
+  margin-left: 0;
+  font-weight: 700;
+}
+
+.main .home h1 {
+  display: inline;
+  color: orange;
+  margin-left: 1rem;
+  font-weight: 700;
+}
+
+.main .form-select {
+  width: 8rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.main textarea::-webkit-input-placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main textarea:-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main textarea::-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main textarea::placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main input::-webkit-input-placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main input:-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main input::-ms-input-placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main input::placeholder {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.main .search input {
+  border-radius: 1rem;
+}
+
+.main button {
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.sidebar img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.toplist input {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 0.8rem;
+}
+
+.toplist ::-webkit-input-placeholder {
+  font-size: 1rem;
+}
+
+.toplist :-ms-input-placeholder {
+  font-size: 1rem;
+}
+
+.toplist ::-ms-input-placeholder {
+  font-size: 1rem;
+}
+
+.toplist ::placeholder {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,138 @@
+@mixin heading($mar) {
+  display: inline;
+  color: orange;
+  margin-left: $mar;
+  font-weight: 700;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  background-color: rgb(236, 224, 224);
+  .top {
+    .toplist {
+      position: absolute;
+
+      ul {
+        font-weight: 800;
+
+        color: rgb(224, 193, 16);
+
+        margin-top: 2rem;
+
+        li {
+          font-size: 2rem;
+          font-weight: 400;
+          list-style: none;
+
+          span {
+            color: rgb(255, 0, 64);
+          }
+        }
+      }
+    }
+  }
+
+  .navbar {
+    position: relative;
+    h4 {
+      font-weight: 900;
+    }
+    .navbar-brand {
+      img {
+        height: 14rem;
+        width: 14rem;
+      }
+    }
+    .nav-link {
+      // margin-top: 7rem;
+      img {
+        height: 2rem;
+        width: 2rem;
+      }
+    }
+  }
+}
+
+.main {
+  border: 1px solid rgb(73, 70, 70);
+  font-size: 2rem;
+  .list3 {
+    font-size: 1.3rem;
+    img {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+  .list1 {
+    input {
+      height: 2rem;
+      width: 6rem;
+    }
+  }
+  .list {
+    img {
+      height: 6rem;
+      width: 6rem;
+    }
+    span {
+      @include heading(0);
+    }
+  }
+
+  .home {
+    h1 {
+      @include heading(1rem);
+    }
+  }
+  .form-select {
+    width: 8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  textarea::placeholder {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  input::placeholder {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .search {
+    input {
+      border-radius: 1rem;
+    }
+  }
+  button {
+    font-size: 1.5rem;
+
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+}
+
+.sidebar {
+  img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+.toplist {
+  input {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 0.8rem;
+  }
+  ::placeholder {
+    font-size: 1rem;
+  }
+}
